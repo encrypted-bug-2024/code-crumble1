@@ -1,0 +1,60 @@
+/* LatentHQ-inspired global styles for Code Crumble */
+
+.glass {
+  background: rgba(36, 37, 58, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(95,95,255,0.18);
+  backdrop-filter: blur(24px);
+  border: 1.5px solid rgba(95,95,255,0.15);
+}
+.bg-gradient-main {
+  background: linear-gradient(120deg,#18192a 0%,#23234d 100%);
+}
+.text-accent {
+  color: #5f5fff;
+}
+.text-highlight {
+  color: #ff5fcb;
+}
+.bg-accent {
+  background: linear-gradient(90deg, #5f5fff 0%, #ff5fcb 100%);
+}
+.bg-highlight {
+  background: #ff5fcb;
+}
+.font-heading {
+  font-family: 'Montserrat', 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.font-mono {
+  font-family: 'Fira Mono', monospace;
+}
+.pill-btn {
+  display: inline-block;
+  border-radius: 9999px;
+  padding: 0.75em 2em;
+  font-weight: 700;
+  background: linear-gradient(90deg, #5f5fff 0%, #ff5fcb 100%);
+  color: #fff;
+  box-shadow: 0 2px 16px #5f5fff44;
+  transition: background 0.3s, box-shadow 0.3s, transform 0.15s;
+}
+.pill-btn:hover, .pill-btn:focus {
+  background: linear-gradient(90deg, #ff5fcb 0%, #5f5fff 100%);
+  box-shadow: 0 4px 32px #ff5fcb44;
+  transform: scale(1.04);
+}
+.glow-border {
+  border: 2px solid #5f5fff;
+  box-shadow: 0 0 16px #5f5fff33, 0 0 64px #ff5fcb22;
+}
+.animated-gradient-bg {
+  background: linear-gradient(120deg, #23234d 0%, #18192a 100%);
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease-in-out infinite;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

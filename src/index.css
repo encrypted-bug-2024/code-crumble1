@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  min-height: 100%;
+  background: linear-gradient(120deg, #18192a 0%, #23234d 100%);
+  color: #fff;
+  font-family: 'Inter', 'Montserrat', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23234d;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #5f5fff 0%, #ff5fcb 100%);
+  border-radius: 8px;
+}
+
+.glass {
+  background: rgba(36, 37, 58, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(95,95,255,0.18);
+  backdrop-filter: blur(24px);
+  border: 1.5px solid rgba(95,95,255,0.15);
+}
+
+.glow-border {
+  border: 2px solid #5f5fff;
+  box-shadow: 0 0 16px #5f5fff33, 0 0 64px #ff5fcb22;
+}
+
+.animated-gradient-bg {
+  background: linear-gradient(120deg, #23234d 0%, #18192a 100%);
+  background-size: 200% 200%;
+  animation: gradientMove 6s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
