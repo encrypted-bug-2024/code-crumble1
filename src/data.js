@@ -14,7 +14,7 @@ export const company = {
     { location: "London, UK", since: 2023 },
   ],
   mission: "Empowering businesses globally with innovative, reliable, and scalable digital solutions.",
-  vision: "To be the world’s most trusted partner for digital transformation.",
+  vision: "To be the world's most trusted partner for digital transformation.",
   values: ["Innovation", "Integrity", "Global Impact", "Excellence"],
 };
 
@@ -38,6 +38,11 @@ export const services = [
     id: "mobile-app",
     name: "Mobile Application Development",
     desc: "Cross-platform mobile apps for iOS & Android. Seamless UX, native performance, global reach.",
+  },
+  {
+    id: "open-source",
+    name: "Open Source Solutions",
+    desc: "Customization, deployment, and management of enterprise-grade open source platforms.",
   },
   {
     id: "hosting",
@@ -64,6 +69,11 @@ export const services = [
     name: "Bulk SMS & Email Campaign Management",
     desc: "Multi-channel campaigns: bulk SMS, email, Google PPC, Meta Ads. Automation & analytics included.",
   },
+  {
+    id: "whatsapp-business",
+    name: "WhatsApp Business API Solutions",
+    desc: "Custom chatbots, AI agents, customer support, and marketing solutions for WhatsApp Business API.",
+  },
 ];
 
 export const jobs = [
@@ -75,31 +85,59 @@ export const jobs = [
 
 export const projects = [
   {
+    id: "trackalways",
     name: "TrackAlways",
     desc: "GPS fleet tracking: live, 60s updates, 24/7 global access.",
-    logo: "trackalways.png",
+    tag: "IoT",
     link: "https://trackalways.in",
   },
   {
+    id: "vegisphere",
     name: "Vegisphere",
     desc: "Premium fresh-produce exports from Kenya & Tanzania.",
-    logo: "vegisphere.png",
+    tag: "E-commerce",
     link: "https://vegisphere.com",
   },
   {
+    id: "encryptedbug",
     name: "EncryptedBug",
     desc: "Cybersecurity services: pentesting & vulnerability assessment.",
-    logo: "encryptedbug.png",
+    tag: "Security",
     link: "#",
   },
   {
+    id: "mercetech",
     name: "MerceTec",
     desc: "Fuel-sensor innovations & IoT connectivity.",
-    logo: "mercetech.png",
+    tag: "IoT",
     link: "#",
   },
-  { name: "CS Corp Technologies", desc: "Enterprise solutions provider.", logo: "cscorp.png", link: "#" },
-  { name: "Barber Haven", desc: "Salon management platform.", logo: "barberhaven.png", link: "#" },
-  { name: "Sttago", desc: "Tech consulting & services.", logo: "sttago.png", link: "#" },
-  { name: "Empeeps", desc: "HR & employee engagement.", logo: "empeeps.png", link: "#" },
+  { 
+    id: "cscorp",
+    name: "CS Corp Technologies", 
+    desc: "Enterprise solutions provider.", 
+    tag: "Enterprise",
+    link: "#" 
+  },
+  { 
+    id: "barberhaven",
+    name: "Barber Haven", 
+    desc: "Salon management platform.", 
+    tag: "SaaS",
+    link: "#" 
+  },
+  { 
+    id: "sttago",
+    name: "Sttago", 
+    desc: "Tech consulting & services.", 
+    tag: "Consulting",
+    link: "#" 
+  },
+  { 
+    id: "empeeps",
+    name: "Empeeps", 
+    desc: "HR & employee engagement.", 
+    tag: "HR Tech",
+    link: "#" 
+  },
 ];

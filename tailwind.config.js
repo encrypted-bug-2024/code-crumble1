@@ -6,22 +6,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        accent: '#5f5fff',
-        highlight: '#ff5fcb',
-        dark: '#18192a',
-        light: '#f8f8ff',
+        primary: '#FF9900', // orange accent
+        accent: '#FF9900', // alias for clarity
+        greenAccent: '#22C55E',
+        purpleAccent: '#A259FF',
+        black: '#111111',
+        dark: '#18181b', // dark gray for backgrounds
+        gray: '#23272a', // card gray
+        lightGray: '#b0b3b8', // subtle text
+        white: '#fff',
       },
       fontFamily: {
         heading: ['Montserrat', 'Inter', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
         mono: ['Fira Mono', 'monospace'],
       },
-      backgroundImage: {
-        'gradient-main': 'linear-gradient(135deg,#18192a 0%,#23234d 100%)',
-      },
-      boxShadow: {
-        glass: '0 4px 24px 0 rgba(95,95,255,0.18)',
-      },
+      backgroundImage: {},
+      boxShadow: {}, // Remove glass shadow
     },
   },
   plugins: [require('@tailwindcss/forms')],
