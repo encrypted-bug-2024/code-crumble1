@@ -142,8 +142,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium text-white">Email</h3>
-                      <a href="mailto:contact@codecrumble.com" className="text-gray-400 hover:text-white transition-colors">
-                        contact@codecrumble.com
+                      <a href="mailto:support@codecrumble.xyz" className="text-gray-400 hover:text-white transition-colors">
+                        support@codecrumble.xyz
                       </a>
                     </div>
                   </div>
@@ -155,9 +155,17 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium text-white">Phone</h3>
-                      <a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">
-                        +1 (234) 567-890
-                      </a>
+                      <div className="flex flex-col space-y-2">
+                        <a href="tel:+919999559345" className="text-gray-400 hover:text-white transition-colors">
+                          +91 9999559345 (India)
+                        </a>
+                        <a href="tel:+447442394168" className="text-gray-400 hover:text-white transition-colors">
+                          +44 7442394168 (UK)
+                        </a>
+                        <a href="tel:+254116257285" className="text-gray-400 hover:text-white transition-colors">
+                          +254 116257285 (Kenya)
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
